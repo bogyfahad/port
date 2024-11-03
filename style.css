@@ -245,3 +245,29 @@ span.single-timeline-horizontal.spacial-horizontal-line {
 .single-profile:hover .profile-border {
   border: transparent;
 }
+
+/* -------------------------------------
+            employers owl carousel styles
+  ------------------------------------- */
+.clients {
+  padding-top: 50px;
+}
+
+.clients-area {
+  display: flex;
+  align-items: center;
+  height: 250px;
+}
+
+.clients-area .item {
+  padding: 0 25px;
+}
+
+.clients .clients-area .owl-carousel .owl-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  max-height: 80px;
+  margin: auto;
+}
