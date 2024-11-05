@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form-trial</title>
+    <link
+      rel="stylesheet"
+      href="/assets/bootstrap-5.0.2-dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="container bg bg-info">
+      <form action="#">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" name="name" id="name" class="form-control" />
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label"> Email </label>
+          <input type="email" name="email" id="email" class="form-control" />
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label"> Message </label>
+          <textarea
+            name="message"
+            id="message"
+            class="form-control"
+            cols="15"
+            rows="12"
+          ></textarea>
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >Check me out</label
+          >
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <script src="/assets/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
